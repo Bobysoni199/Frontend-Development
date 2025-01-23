@@ -1,0 +1,263 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #005b96;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #333;
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#about p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Projects Section */
+#projects {
+    padding: 60px 20px;
+    background-color: #eee;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Team Section */
+#team {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#team h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team-member {
+    width: 250px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #005b96;
+}
+
+.team-member h3 {
+    margin-top: 15px;
+    font-size: 1.4em;
+}
+
+.team-member p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+}
+
+form button {
+    background-color: #005b96;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #333;
+}
+
+.social-media a {
+    color: white;
+    font-size: 1.2em;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #005b96;
+}
+
+/* Footer Section */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 1em;
+}
