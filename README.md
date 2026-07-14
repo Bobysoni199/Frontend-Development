@@ -107,3 +107,12 @@ Design: The design is minimalistic, focusing on easy navigation and showcasing y
 License
 
 This project is open-source. Feel free to use, modify, and distribute it, but please attribute the images and content if you use them. You may need to obtain the proper licensing for images used from third-party sites.
+
+
+---
+
+## Tech Stack
+- HTML5, CSS3, JavaScript
+- React.js for UI components
+- Responsive Design with Flexbox & Grid
+- Deployed on GitHub Pages
